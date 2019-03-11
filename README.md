@@ -1,5 +1,5 @@
 # Assignment: Intermediate QGIS Tutorials
-## Worth: 20 points
+## Worth: 30 points
 ## Due: 3 days
 
 ## Background

@@ -25,4 +25,6 @@ Commit a screenshot of Step 20 as a file named `ca_tracts_pop_screenshot.png` to
 
 Commit a screenshot of Step 14 as a file named `ny_burroughs_nursing_homes.png` to the `intermed` branch of this repo.
 
-### 4. Finally, submit a *Pull request* to merge your assignment files with the `master` branch. nally,
+### 4. Finally, submit a *Pull request* to merge your assignment files with the `master` branch.
+
+Be sure to send the instructor a message in slack with a link to your Pull request to initiate the grading process.

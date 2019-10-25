@@ -57,6 +57,3 @@ Deliverable:
 
 Take a screenshot of your Qyour GIS Desktop at the final map (step 16) and name it `screencap-shortest-path.png`
 
-### 6. Turn in your work via GitHub Pull Request. 
-
-Finally, submit a *Pull request* to merge your assignment files with the `master` branch. Your branch should be named `intermediate`.

@@ -6,7 +6,7 @@
 Pull request to merge a new branch named `assignment` with `master`. Your branch should contain:
 
 1. `screencap-nyc-boro.png`
-2. `screencap-nyc-boro.png`
+2. `screencap-tmax_mean_table.png`
 3. `screencap-lake-depth.png`
 4. `screencap_police_hostpot.png`
 5. `screencap-shortest-path.png`

@@ -1,0 +1,72 @@
+name: Check for required files
+
+on:
+  push:
+    branches: [ assignment ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Check screencap_nyc_boro.png
+        id: check_1_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_nyc_boro.png"
+          key:  
+
+      - name: Required files exist
+        if: steps.check_1_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_nyc_boro.png', is missing
+          exit 1
+          
+      - name: Check screencap_tmax_mean_table.png
+        id: check_2_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_tmax_mean_table.png"
+
+      - name: Required files exist
+        if: steps.check_2_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_tmax_mean_table.png', is missing
+          exit 1
+          
+      - name: Check screencap_lake_depth.png
+        id: check_3_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_lake_depth.png"
+
+      - name: Required files exist
+        if: steps.check_3_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_lake_depth.png', is missing
+          exit 1
+          
+      - name: Check screencap_heatmap.png
+        id: check_4_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_heatmap.png"
+
+      - name: Required files exist
+        if: steps.check_4_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_heatmap.png', is missing
+          exit 1
+          
+      - name: Check screencap_shortest_path.png
+        id: check_5_files
+        uses: andstor/file-existence-action@v1
+        with:
+          files: "screencap_shortest_path.png"
+
+      - name: Required files exist
+        if: steps.check_5_files.outputs.files_exists != 'true'
+        run: |
+          echo Required file, 'screencap_shortest_path.png', is missing
+          exit 1
